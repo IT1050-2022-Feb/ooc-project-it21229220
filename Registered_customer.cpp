@@ -1,8 +1,9 @@
 #include<iostream>
 #include<Registered_customer.h>
+#include <string.h>
 Registered_customer::Registered_customer(){}
-Registered_customer::Registered_customer(int pRegisteredId ,string 
-pRegisteredName, string pregisteredEmail)
+Registered_customer::Registered_customer(int pRegisteredId ,char
+pRegisteredName[30], char pregisteredEmail[30])
 {
  cusId= pRegisteredId;
  cusName= pRegisteredName;
