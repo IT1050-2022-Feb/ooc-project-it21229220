@@ -1,6 +1,7 @@
 #include<iostream>
 #include "Registered_customer.h"
 #include "Scheduled_details.h"
+using namespace std;
 int main()
 {
   Registered_customer regCus1;
